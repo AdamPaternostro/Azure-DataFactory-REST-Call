@@ -110,7 +110,7 @@ function performRequest(context, host, path, method, header, data, success) {
 
             context.log(headers1);
 
-            // You can the this URL by using Fiddler and running your data factory job from the Azure Portal
+            // You can find this URL by using Fiddler and running your data factory job from the Azure Portal
             performRequest(context,
                 'management.azure.com',
                 '/subscriptions/' + subscription_id + '/resourcegroups/' + resource_group_of_datafactory +'/providers/Microsoft.DataFactory/datafactories/CopyDataFactoryJob/datasets/OutputDataset-8gw/slices/setstatus?api-version=2015-09-01&start=2016-08-01T00%3A00%3A00.000Z&end=2016-09-01T00%3A00%3A00.000Z', 
